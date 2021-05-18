@@ -12,7 +12,7 @@ This is the source code for our paper:"Beyond Laplacian Smoothing for Semi-Super
 <li>h5py == 2.10.0</li>
 
 <h1>Usage</h1>
-python train.py --dataset citeseer 
+sh citeseer.sh 
 
 <h1>Reference</h1>
 <div >
