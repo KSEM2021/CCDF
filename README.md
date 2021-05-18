@@ -1,6 +1,5 @@
 # CCDF
 This is the source code for our paper:"Beyond Laplacian Smoothing for Semi-Supervised Community Detection"
-<h1>Architecture</h1>
 
 <h1>Environment Settings</h1>
 
