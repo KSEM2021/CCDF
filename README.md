@@ -1,8 +1,8 @@
 # CCDF
 This is the source code for our paper:"Beyond Laplacian Smoothing for Semi-Supervised Community Detection"
-<h2>Architecture</h2>
+<h1>Architecture</h1>
 
-<h2>Environment Settings</h2>
+<h1>Environment Settings</h1>
 
 <li>python == 3.6</li>
 <li>Pytorch == 1.1.0</li>
@@ -12,10 +12,10 @@ This is the source code for our paper:"Beyond Laplacian Smoothing for Semi-Super
 <li>scikit-learn == 0.21.3</li>
 <li>h5py == 2.10.0</li>
 
-<h2>Usage</h2>
+<h1>Usage</h1>
 python train.py --dataset citeseer
 
-<h2>Reference</h2>
+<h1>Reference</h1>
 <div >
 @article{</br>
   &nbsp &nbsp   title={Beyond Laplacian Smoothing for Semi-Supervised Community Detection},</br>
