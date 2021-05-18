@@ -10,13 +10,13 @@ def get_citation_args():
                         help='Number of epochs to train.')
     parser.add_argument('--lr', type=float, default=0.04,
                         help='Initial learning rate.')
-    parser.add_argument('--weight_decay', type=float, default=2e-4,
+    parser.add_argument('--weight_decay', type=float, default=6e-4,
                         help='Weight decay (L2 loss on parameters).')
     parser.add_argument('--hidden1', type=int, default=32,
                         help='Number of hidden units.')
-    parser.add_argument('--dropout', type=float, default=0.8,
+    parser.add_argument('--dropout', type=float, default=0.6,
                         help='Dropout rate (1 - keep probability).')
-    parser.add_argument('--dataset', type=str, default="cora",
+    parser.add_argument('--dataset', type=str, default="citeseer",
                         help='Dataset to use.')
     parser.add_argument('--model', type=str, default="CCDF",
                         choices=["CCDF"],
